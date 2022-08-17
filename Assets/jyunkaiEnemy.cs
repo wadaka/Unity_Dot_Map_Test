@@ -22,7 +22,6 @@ public class jyunkaiEnemy : MonoBehaviour
         {
             if (other.gameObject == enemyController.jyunkaiTarget[i])
             {
-                Debug.Log("接触");
                 enemyController.jyunkaiIndex =(i + 1)%enemyController.jyunkaiTarget.Length;
             }
         }

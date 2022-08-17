@@ -18,6 +18,7 @@ public class playerMagic : MonoBehaviour
         {
             Debug.Log("発射");
             Vector3 magicWallPosition =transform.position+transform.forward*2.0f;
+            magicWallPosition.y = 0.5f;
             Instantiate(magicWall,magicWallPosition,Quaternion.Euler(transform.forward));
         }
     }

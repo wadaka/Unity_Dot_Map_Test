@@ -67,6 +67,7 @@
     <Compile Include="Assets\CameraFollowTarget.cs" />
     <Compile Include="Assets\EnemyController.cs" />
     <Compile Include="Assets\jyunkaiEnemy.cs" />
+    <Compile Include="Assets\MagicWall.cs" />
     <Compile Include="Assets\playerMagic.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />

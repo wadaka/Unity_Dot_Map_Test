@@ -9,6 +9,10 @@ public class EnemyController : MonoBehaviour
     //エージェントとなるオブジェクトのNavMeshAgent格納用
     public NavMeshAgent agent;
     public NavMeshAgent[] agents;
+
+    public NavMeshAgent jyunkaiAgent;
+    public GameObject[] jyunkaiTarget;
+    public int jyunkaiIndex=0;
     // Use this for initialization
 
     void Start(){
@@ -21,5 +25,7 @@ public class EnemyController : MonoBehaviour
             //目的地となる座標を設定する
             agents[i].destination = target.position;
         }
+
+        jyunkaiAgent.destination = jyunkaiTarget[jyunkaiIndex].transform.position;
     }
 }

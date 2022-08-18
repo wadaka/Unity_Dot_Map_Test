@@ -67,6 +67,7 @@
     <Compile Include="Assets\CameraFollowTarget.cs" />
     <Compile Include="Assets\EnemyController.cs" />
     <Compile Include="Assets\jyunkaiEnemy.cs" />
+    <Compile Include="Assets\jyunkaiTuisekiEnemy.cs" />
     <Compile Include="Assets\MagicWall.cs" />
     <Compile Include="Assets\playerMagic.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
@@ -77,6 +78,8 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\tutikemuri.cs" />
+    <Compile Include="Assets\tutikemuriex.cs" />
     <Compile Include="Assets\UnityChan\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\UnityChan\Scripts\AutoBlinkforSD.cs" />
     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />

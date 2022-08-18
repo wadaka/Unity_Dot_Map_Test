@@ -13,6 +13,9 @@ public class EnemyController : MonoBehaviour
     public NavMeshAgent jyunkaiAgent;
     public GameObject[] jyunkaiTarget;
     public int jyunkaiIndex=0;
+
+    
+    
     // Use this for initialization
 
     void Start(){
@@ -21,11 +24,16 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
-        for(int i=0;i<agents.Length;i++){
-            //目的地となる座標を設定する
-            agents[i].destination = target.position;
+        int count = (int)(Time.time*1000);
+        if (count % 10 == 0) {
+            for (int i = 0; i < agents.Length; i++) {
+                //目的地となる座標を設定する
+                agents[i].destination = target.position;
+            }
         }
+        
 
         jyunkaiAgent.destination = jyunkaiTarget[jyunkaiIndex].transform.position;
+
     }
 }

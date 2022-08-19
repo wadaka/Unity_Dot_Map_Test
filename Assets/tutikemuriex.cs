@@ -5,11 +5,11 @@ using UnityEngine;
 public class tutikemuriex : MonoBehaviour
 {
     public ParticleSystem kemuri;
-    private Rigidbody rb;
+    public Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        
     }
 
     // Update is called once per frame
